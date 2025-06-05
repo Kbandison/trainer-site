@@ -29,7 +29,7 @@ export default function Nav() {
           : "bg-transparent py-4"
       )}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-around px-6">
         <span className="font-extrabold text-xl tracking-widest text-brand drop-shadow-glow">
           KEVIN
         </span>
