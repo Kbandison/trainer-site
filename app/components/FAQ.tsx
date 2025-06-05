@@ -48,7 +48,7 @@ export default function FAQ() {
   return (
     <section className="w-full min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-background via-black/80 to-brand/20 py-12 px-0">
       <div className="w-full flex flex-col items-center">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-brand mb-10 drop-shadow">
+        <h2 className="text-4xl sm:text-5xl font-extrabold text-brand mb-10 drop-shadow text-center">
           Frequently Asked Questions
         </h2>
         <div
