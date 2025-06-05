@@ -6,6 +6,7 @@ import { IconArrowRight, IconPhone, IconHelpCircle } from "@tabler/icons-react";
 export default function CTABanner() {
   const ref = useRef<HTMLDivElement>(null);
   // Mouse position state (relative to section)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [coords, setCoords] = useState({ x: 0, y: 0 });
 
   // Framer Motion values for smooth movement
