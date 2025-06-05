@@ -122,6 +122,8 @@ export default function Contact() {
       }
     } catch (err) {
       alert("Sorry, there was a network error. Please try again later.");
+
+      return err;
     }
     setLoading(false);
   }

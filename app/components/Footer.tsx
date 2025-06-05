@@ -57,7 +57,7 @@ export default function Footer() {
       >
         {/* Socials with fancy gradients */}
         <div className="flex gap-4 mb-2 md:mb-0">
-          {socials.map((s, i) => (
+          {socials.map((s) => (
             <motion.a
               key={s.label}
               href={s.href}
