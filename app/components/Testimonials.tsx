@@ -87,7 +87,7 @@ export default function Testimonials() {
       <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-brand mb-10 sm:mb-16 lg:mb-20 drop-shadow text-readable">
         What Clients Say
       </h2>
-      <div className="w-full flex justify-center px-2 sm:px-8">
+      <div className="w-full flex justify-center px-2 sm:px-8 overflow-hidden">
         <div
           ref={sliderRef}
           className="keen-slider w-full max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-4xl"
